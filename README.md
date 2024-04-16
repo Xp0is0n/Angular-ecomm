@@ -1,0 +1,9 @@
+## Database
+
+json-server --watch db.json
+= run this query on ecomm-project folder terminal to start json server...
+open terminal on project path...
+
+## project
+
+ng serve to run ui...

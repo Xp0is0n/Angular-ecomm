@@ -1,0 +1,17 @@
+.login,
+.signup {
+  text-align: center;
+}
+.signup h1,
+.login h1 {
+  margin-bottom: 50px;
+  margin-top: 80px;
+  color: #424874;
+}
+.auth-toggle-link {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: left;
+  color: #424874;
+  cursor: pointer;
+}

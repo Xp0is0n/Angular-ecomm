@@ -1,0 +1,89 @@
+{
+  "seller": [
+    {
+      "id": "9d06",
+      "name": "ani",
+      "password": "123",
+      "email": "ani@123"
+    }
+  ],
+  "products": [
+    {
+      "name": "iphone 15",
+      "price": "150000",
+      "color": "purple",
+      "catagory": "mobile",
+      "image": "https://imgs.search.brave.com/O1BGI0rNjEBFeWG2b0XQIFD2myyb6AUT6U_YCivx0QQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/MzF5dDFjRGtsdUwu/anBn",
+      "discription": "15 is better",
+      "id": "7f2c"
+    },
+    {
+      "id": "165d",
+      "name": "i Mac",
+      "price": "250000",
+      "color": "green",
+      "catagory": "laptop",
+      "image": "https://imgs.search.brave.com/ouHURVihwKLO4n0tCiFYPeyFjP8wlKEtIyrxwpdpoCg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubWFjcnVtb3Jz/LmNvbS9hcnRpY2xl/LW5ldy8yMDIxLzA0/L20xLWltYWMtZnJv/bnQuanBn",
+      "discription": "best desktop"
+    },
+    {
+      "id": "7aa9",
+      "name": "Airpods Max",
+      "price": "55000",
+      "color": "White",
+      "catagory": "headphone",
+      "image": "https://imgs.search.brave.com/N449X5ITZaMKx-pPiluXma9W3rmvrrAnY_0EvjuKD_0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5jbm4uY29tL2Fw/aS92MS9pbWFnZXMv/c3RlbGxhci9wcm9k/LzIwMTIyMTEyMDI1/NC1haXJwb2RzLW1h/eC0yLmpwZz9xPXhf/MCx5XzAsaF85MDAs/d18xNjAwLGNfZmls/bC9oXzcyMCx3XzEy/ODA",
+      "discription": "Headphones"
+    },
+    {
+      "id": "3dbe",
+      "name": "Apple Watch series 7",
+      "price": "25000",
+      "color": "Red",
+      "catagory": "watch",
+      "image": "https://imgs.search.brave.com/Mwu3fkMUf07HNc-6Olms2PJ4AL5smo1Vn7sy4xjOLlo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvMjg5/NmVkYmYtM2U4Ni00/M2JhLTg4NzItZDE0/MTY3N2I1OThhLjdm/NzFjNGYxNTJiNGI5/YTYyNTdmM2ZhMTY1/ZWY2MzUzLmpwZWc_/b2RuSGVpZ2h0PTU3/NiZvZG5XaWR0aD01/NzYmb2RuQmc9RkZG/RkZG",
+      "discription": "GPS + cellular "
+    },
+    {
+      "id": "af15",
+      "name": "Airpods 2gen",
+      "price": "12000",
+      "color": "white",
+      "catagory": "headphone",
+      "image": "https://imgs.search.brave.com/b6w_4SF9BHkX2P1-WgpaLw-8FyZrCm1M5aRq0QNv2Bk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvYWM3/OTNmZjQtZDNkYS00/Y2JlLWJlYmEtZjk1/NmU3NDk0NDkwXzEu/NWJhZTE1Njg4ZWIw/YWFmZDIyYTk5ZDAx/YTA3MmY5ZGIuanBl/Zz9vZG5IZWlnaHQ9/NTc2Jm9kbldpZHRo/PTU3NiZvZG5CZz1G/RkZGRkY",
+      "discription": "Noise cancelation"
+    }
+  ],
+  "users": [
+    {
+      "id": "18a6",
+      "name": "sayi",
+      "email": "sayi@123",
+      "password": "123"
+    }
+  ],
+  "cart": [
+    {
+      "id": "dde3",
+      "name": "Airpods Max",
+      "price": "55000",
+      "color": "White",
+      "catagory": "headphone",
+      "image": "https://imgs.search.brave.com/N449X5ITZaMKx-pPiluXma9W3rmvrrAnY_0EvjuKD_0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5jbm4uY29tL2Fw/aS92MS9pbWFnZXMv/c3RlbGxhci9wcm9k/LzIwMTIyMTEyMDI1/NC1haXJwb2RzLW1h/eC0yLmpwZz9xPXhf/MCx5XzAsaF85MDAs/d18xNjAwLGNfZmls/bC9oXzcyMCx3XzEy/ODA",
+      "discription": "Headphones",
+      "quantity": 2,
+      "userId": "18a6",
+      "productId": "7aa9"
+    }
+  ],
+  "orders": [
+    {
+      "id": "8527",
+      "email": "sayi@123",
+      "address": "dharangaon , dist. jalgaon",
+      "contact": "08830282965",
+      "totalPrice": 8500,
+      "userId": "18a6"
+    }
+  ]
+}

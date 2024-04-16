@@ -1,0 +1,46 @@
+<div class="my-orders">
+  <h1>My Orders</h1>
+  <div class="row">
+    <div class="col-sm-2">
+      <span>Order</span>
+    </div>
+    <div class="col-sm-2">
+      <span>Order Id</span>
+    </div>
+    <div class="col-sm-2">
+      <span>Price</span>
+    </div>
+    <div class="col-sm-2">
+      <span>Status</span>
+    </div>
+    <div class="col-sm-2">
+      <span>Action</span>
+    </div>
+  </div>
+
+  <div class="row order-data" *ngFor="let order of orderData">
+    <div class="col-sm-2">
+      <img
+        class="order-img"
+        src="https://imgs.search.brave.com/xEDesEx3SAtlG8H9yenAcwYH-vSm5ku7AKD53XTY4lk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0cv/MDEveC1sb2NhbGUv/Y3MvaGVscC9pbWFn/ZXMvZ2F0ZXdheS9z/ZWxmLXNlcnZpY2Uv/b3JkZXIuX0NCNjYw/NjY4NzM1Xy5wbmc"
+        alt="orders"
+      />
+    </div>
+    <div class="col-sm-2">
+      <span>{{ order.id }}</span>
+    </div>
+    <div class="col-sm-2">
+      <span>{{ order.totalPrice }}</span>
+    </div>
+    <div class="col-sm-2">
+      <span>In Process</span>
+    </div>
+    <div class="col-sm-2">
+      <span
+        ><button class="form-button" (click)="cancleOrder(order.id)">
+          Cancle Order
+        </button></span
+      >
+    </div>
+  </div>
+</div>

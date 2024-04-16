@@ -1,0 +1,19 @@
+table {
+  text-align: left;
+  color: #424874;
+  border-color: #dcd6f7;
+  border-collapse: collapse;
+  margin-bottom: 150px;
+}
+table td,
+table th {
+  padding: 10px;
+  min-height: 160px;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+.adjust-update-link {
+  margin-left: 15px;
+}
